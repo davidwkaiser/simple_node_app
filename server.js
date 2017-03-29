@@ -26,6 +26,11 @@ ig.use({
   // client_id: 'MY_CLIENT_ID',
   // client_secret: 'MY_CLIENT_SECRET'
 // });
+// not sure why but IG call is not working
+// even though the access token is tested positive
+// perhaps test with twitter or other API
+// also may be a version thing, look at instagram-node and express
+
 
 // SET THE ROUTES
 // ===================================================
