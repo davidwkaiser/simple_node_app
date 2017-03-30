@@ -12,19 +12,20 @@ app.use(express.static(__dirname + '/public'));
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
+
 // configure instagram app with client_id, client_secret, and access_token
 ig.use({
   // get access token here: http://instagram.pixelunion.net/
-  access_token: 'MY_ACCESS_TOKEN',
+  access_token: "MY_ACCESS_TOKEN"
 });
 
 // alternatively we can use the client_id and client_secret
 // for now we'll use the access_token way
 // ig.use({
-  // get these from when we create our app as an instagram developer
-  // https://www.instagram.com/developer/
-  // client_id: 'MY_CLIENT_ID',
-  // client_secret: 'MY_CLIENT_SECRET'
+//   // get these from when we create our app as an instagram developer
+//   // https://www.instagram.com/developer/,
+//   client_id: 'MY_CLIENT_ID',
+//   client_secret: 'MY_CLIENT_SECRET'
 // });
 // not sure why but IG call is not working
 // even though the access token is tested positive
@@ -36,14 +37,13 @@ ig.use({
 // ===================================================
 // home page route - popular images
 app.get('/', function(req, res) {
-
+  // console.log(req);
     // use the instagram package to get popular media
-    ig.user_self_media_recent(function(err, medias, pagination, remaining, limit) {
+        ig.user_self_feed(function(err, medias, pagination, remaining, limit) {
         // render the home page and pass in the popular images
-
+        console.log(err);
         res.render('pages/index', { grams: medias });
     });
-
 });
 
 // START THE SERVER
