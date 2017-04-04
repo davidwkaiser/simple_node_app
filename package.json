@@ -16,7 +16,8 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.15.2",
-    "instagram-node": "^0.5.8"
+    "instagram-node": "^0.5.8",
+    "neo-instagram": "^1.0.1"
   },
   "bugs": {
     "url": "https://github.com/davidwkaiser/simple_node_app/issues"
