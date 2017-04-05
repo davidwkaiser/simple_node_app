@@ -15,6 +15,7 @@ app.use(express.static(__dirname + '/public'));
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
+
 // using neo-instagram
 app.get('/', function(req, res) {
     ig.get('users/self/media/recent', { access_token: MY_ACCESS_TOKEN, count: 5 }).then(media => {
@@ -28,3 +29,4 @@ app.listen(8080);
 console.log('App started! Look at http://localhost:8080');
 
 // look here for libs: https://www.npmjs.com/browse/keyword/instagram
+
