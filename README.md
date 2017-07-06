@@ -1,14 +1,11 @@
 # simple_node_app
-working from the article "building your first node application" by scotch.io  
-Node.JS is very cool.  
-I'm going to deploy this to Heroku  
+working from the article "building your first node application" by scotch.io  (They have since taken it down)
+Node.JS is very cool. Next step is to deploy this to Heroku  
 
 I am a graduate of Dev Bootcamp, I'm looking for my first dev job.  
-I know Ruby / Rails, JavaScript / jQuery / AJAX,  
-HTML / CSS, and SQL. I've used Ionic (Angular for mobile), but  
-don't remember much about it. I'm teaching myself Node.JS and  
-Angular 2. I recently attended Angular Summit 2017 and an Angular workshop / MeetUp,  
-I'm serious about learning Angular 2.  
+I know Ruby / Rails, JavaScript / jQuery / AJAX,  HTML / CSS, and SQL. I've used Ionic (Angular for mobile), but  
+don't remember much about it. I'm teaching myself Node.JS and   Angular 2. I recently attended Angular Summit 2017 
+and an Angular workshop / MeetUp, I'm serious about learning Angular 2. 
 
 I'm a leader, I'm responsible, and I'm low drama.  
 
