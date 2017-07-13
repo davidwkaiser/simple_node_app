@@ -1,6 +1,8 @@
 # simple_node_app
 working from the article "building your first node application" by scotch.io  (They have since taken it down)
-Node.JS is very cool. Next step is to deploy this to Heroku  
+Node.JS is very cool. 
+
+This app can be found here: https://radiant-springs-47900.herokuapp.com/
 
 I am a graduate of Dev Bootcamp, I'm looking for my first dev job.  
 I know Ruby / Rails, JavaScript / jQuery / AJAX,  HTML / CSS, and SQL. I've used Ionic (Angular for mobile), but  
