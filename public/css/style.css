@@ -2,6 +2,10 @@ body    {
   padding-top:50px;
 }
 
+.story {
+  margin: auto; 
+}
+
 .instagram-pic     {
   position:relative;
   padding:10px;
